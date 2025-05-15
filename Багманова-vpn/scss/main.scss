@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+
+// Banner
+.banner {
+  display: flex;
+  margin: 100px 0 0 150px;
+
+  .txt {
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+      font-size: 50px;
+      font-weight: 500;
+      color: #0B132A;
+
+      span {
+        font-weight: 700;
+      }
+    }
+
+    p {
+      margin-top: 38px;
+      font-size: 16px;
+      font-weight: 400;
+      color: #4F5665;
+      line-height: 30px;
+
+      span {
+        font-weight: 500;
+      }
+    }
+
+    .btn3 {
+      width: 250px;
+      height: 60px;
+      margin-top: 54px;
+      padding: 17px 77.5px;
+      background: #F53838;
+      border-radius: 10px;
+      font-size: 16px;
+      font-weight: 700;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+
+// Stat
+.stat {
+  display: flex;
+  width: 1140px;
+  height: 200px;
+  background: #fff;
+  border-radius: 10px;
+  justify-content: space-between;
+  margin: 100px 0 0 150px;
+
+  .user, .local, .server {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+
+    .users {
+      gap: 5px;
+
+      h1 {
+        font-size: 25px;
+        font-weight: 700;
+        color: #0B132A;
+      }
+
+      p {
+        font-size: 20px;
+        font-weight: 400;
+        color: #4F5665;
+      }
+    }
+  }
+
+  .user {
+    padding-left: 91px;
+  }
+}
+
+// Banner 2
+.banner_2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 95px 0 0 185px;
+
+  .txt2 {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+
+    h1 {
+      font-size: 35px;
+      font-weight: 500;
+      color: #0B132A;
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      color: #4F5665;
+      margin-right: 176px;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+
+      .spis1 {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+      }
+    }
+  }
+}
+
+// Plan section
+.plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 132px;
+  padding-top: 93px;
+  background-color: #fbfbfb;
+
+  h1 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #0B132A;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .teext {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4F5665;
+    text-align: center;
+    line-height: 30px;
+    padding-bottom: 55px;
+  }
+
+  .plans {
+    display: flex;
+    gap: 50px;
+
+    .free, .standard, .premium {
+      width: 330px;
+      height: 760px;
+      background: #fff;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      border: 2px solid #DDD;
+
+      .img {
+        padding: 79px 0 30px 92px;
+      }
+
+      h1 {
+        font-size: 18px;
+        font-weight: 500;
+        color: #0B132A;
+        line-height: 30px;
+        text-align: center;
+      }
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 130px 69px;
+        gap: 10px;
+
+        .free_1 {
+          display: flex;
+          align-items: center;
+          text-align: center;
+          gap: 20px;
+
+          p {
+            font-size: 14px;
+            font-weight: 400;
+            color: #4F5665;
+            line-height: 30px;
+          }
+        }
+      }
+
+      h2 {
+        font-size: 25px;
+        font-weight: 500;
+        color: #0B132A;
+        text-align: center;
+        line-height: 30px;
+        margin-bottom: 20px;
+
+        span {
+          font-size: 25px;
+          font-weight: 400;
+          color: #4F5665;
+        }
+      }
+    }
+
+    .premium {
+      border-color: #F53838;
+
+      .btn5 {
+        display: flex;
+        align-items: center;
+        width: 177.876px;
+        height: 45px;
+        margin-left: 76px;
+        padding: 13px 62px;
+        border-radius: 50px;
+        background: #F53838;
+        font-size: 16px;
+        font-weight: 700;
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+
+    .free .btn4,
+    .standard .btn4 {
+      display: flex;
+      align-items: center;
+      width: 177.876px;
+      height: 45px;
+      margin-left: 76px;
+      padding: 13px 62px;
+      border-radius: 50px;
+      border: 2px solid #F53838;
+      font-size: 16px;
+      font-weight: 700;
+      color: #F53838;
+      text-decoration: none;
+    }
+
+    .standard ul {
+      margin-bottom: 90px;
+    }
+
+    .premium ul {
+      margin-bottom: 50px;
+    }
+  }
+}
+
+// Map section
+.map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+
+  h1 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #0B132A;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4F5665;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 155px;
+
+    span {
+      font-weight: 500;
+    }
+  }
+}
+
+// Testimonials section
+.otz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+
+  .happy {
+    font-size: 35px;
+    font-weight: 500;
+    color: #0B132A;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+
+  .our {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4F5665;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 60px;
+  }
+
+  .cards {
+    display: flex;
+    gap: 50px;
+
+    .card_1 {
+      display: flex;
+      flex-direction: column;
+      width: 400px;
+      height: 230px;
+      background: #fff;
+      border: 2px solid #F53838;
+      border-radius: 10px;
+
+      .zag {
+        display: flex;
+        align-items: center;
+
+        .pep1 {
+          padding: 30px 20px 0 30px;
+        }
+
+        .fio {
+          display: flex;
+          flex-direction: column;
+          margin-top: 36px;
+
+          h1 {
+            font-size: 18px;
+            font-weight: 500;
+            color: #0B132A;
+            text-align: center;
+            line-height: 30px;
+          }
+
+          p {
+            font-size: 14px;
+            font-weight: 400;
+            color: #4F5665;
+          }
+        }
+
+        .rate {
+          display: flex;
+          gap: 10px;
+          margin: 40px 0 0 108px;
+        }
+      }
+    }
+  }
+}
